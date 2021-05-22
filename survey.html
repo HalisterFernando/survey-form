@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Newsreader:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Newsreader:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Courier+Prime:wght@700&family=Newsreader:wght@200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./survey.css">      
+<title>Pesquisa de Satisfação</title>
+</head>
+<body>
+  <div class="box">
+  <div class="title">
+    <h1 id="title">compuTech Pesquisa de Satisfação</h1>
+    <p id="description"><i>Ajude-nos a melhorar nosso trabalho</i></p>
+  </div>
+  <form id="survey-form">
+    <label id="name-label">Nome</label><br>
+    <input id="name" type="text" placeholder="Digite seu nome" required><br><br>
+    <label id="email-label">Email</label><br>
+    <input id="email" type="email" placeholder="Digite seu email" required><br><br>
+    <label id="number-label">Idade (opcional)</label><br>
+    <input id="number" type="number" placeholder="25" min="8" max="99"><br><br>
+    <label id="dropdown-label">Qual curso você está cursando?</label><br>
+    
+    <select id="dropdown">
+      <option disable selected hidden>Selecione seu curso</option><br>
+       <option>Hardware</option> 
+       <option>Programação front-end</option> 
+       <option>Programação back-end</option> 
+       <option>Rede e Servidor</option> 
+    </select><br><br>
+  
+    <label id="recomend-label">Você recomendaria a compuTech a um amigo?</label><br><br>
+    <div class="button">
+    <input id="sure" type="radio" value="sure" name="recomend" >Com certeza!</input><br>
+    <input id="maybe" type="radio" value="maybe" name="recomend" >Talvez</input><br>
+    <input id="not-sure" type="radio" value="not-sure" name="recomend" >Não tenho certeza</input><br><br>
+  </div>
+     
+<label id="improve">Qual destas melhorias você gostaria de ver na compuTech?</label><br><br>
+<div class="checkbox">
+<input id="night" type="checkbox" value="night">Aulas com horários a noite</input><br>
+<input id="question" type="checkbox" value="question">Horários para plantão de dúvidas</input><br>
+<input id="project" type="checkbox" value="project">Projetos em grupo</input><br>
+<input id="course" type="checkbox" value="course">Mais cursos</input><br><br>
+</div>
+<label id=text-label>Alguma sugestão ou crítica?</label><br><br>
+<textarea placeholder="Escreva aqui"></textarea><br><br>
+
+    
+    <input id="submit" type="submit">
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+.title  {
+  text-align: center;     
+}
+
+#title {
+  font-family: 'Courier Prime', monospace;
+  font-size: 50px;
+   color: #000000
+
+;
+}
+
+#description {
+  font-family: 'Newsreader', serif;
+  font-size: 25px;
+  color: #000000;  
+}
+
+#name-label {
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  color: black;
+  
+}
+
+#name {
+width: 650px;
+height: 25px;
+}
+
+#email-label {
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+#email {
+width: 650px;
+height: 25px;
+}
+
+#number-label {
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+#number {
+width: 650px;
+height: 25px;
+}
+
+#dropdown-label {
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+#dropdown {
+  width: 660px;
+  height: 35px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+#recomend-label {
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.button {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+#sure {
+width: 16px;
+height: 16px;
+}
+
+#maybe {
+width: 16px;
+height: 16px;
+}
+
+#not-sure {
+width: 16px;
+height: 16px;
+}
+
+#improve {
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+#night {
+ width: 16px;
+height: 16px;
+}
+
+#question {
+ width: 16px;
+height: 16px;
+}
+
+#project {
+ width: 16px;
+height: 16px;
+}
+
+#course {
+ width: 16px;
+height: 16px;
+}
+
+.checkbox {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+
+.box {
+  border-style: hidden;
+  padding-top: 20px;
+  padding-right: 380px;
+  padding-bottom: 20px ;
+  padding-left: 380px ;
+}
+
+#survey-form {
+  border-style: solid;
+  padding-top: 50px;
+  padding-right: 150px;
+  padding-bottom: 50px ;
+  padding-left: 150px ;
+  background-color: #FFE4C4;
+}
+
+#text-label {
+  font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+textarea {
+width: 650px;
+height: 150px  
+}
+
+#submit {
+width: 657px;
+height: 40px;
+background-color: #FFF8DC;
+font-family: 'Cabin', sans-serif;
+font-size: 20px  
+}
+
+body {
+  background: #FFF8DC; 
+}
